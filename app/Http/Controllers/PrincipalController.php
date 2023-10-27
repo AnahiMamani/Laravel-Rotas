@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Route;
 
-class principalController extends Controllers
+class principalController extends Controller
 {
     public function principal(){
         return view('site.principal');

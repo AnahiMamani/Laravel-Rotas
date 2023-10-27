@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Route;
 
-class SobreNosController extends Controllers
+class SobreNosController extends Controller
 {
     public function sobreNos(){
         return view('site.sobre-nos');
